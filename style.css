@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
 }
 body{
     background-color: #e0e8ff;
+    font-family: "Red Hat Display", sans-serif;
+
 }
 .container{
     width: 450px;
@@ -29,6 +32,8 @@ h1{
     font-weight: 900;
     text-align: center;
     color: #1f2e55; 
+    font-family: "Red Hat Display", sans-serif;
+
 
 }
 .main-p{
@@ -41,29 +46,41 @@ h1{
     line-height: 1.63;
     text-align: center;
     color: #717fa6;
+    font-family: "Red Hat Display", sans-serif;
+
   
 }
+
+  
 .music-div{
     width: 354px;
     height: 98px;
-    flex-grow: 0;
     margin: 20px 48px 32px;
     padding: 25px 24px;
     border-radius: 11px;
     background-color: #f7f9ff;
+    display: flex;
 }
 .music-poto{
-    width: 48px;
+     width: 48px;
     height: 48px;
     margin: 0 20px 0 0;
     background-color: #dfe6fb;
-    border-radius: 50px;
+    border-radius: 50px; 
   
 }
+.flex-change{
+    display: flex;
+}
+.anual-cost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .anual{
-    width: 92px;
+    /* width: 92px;
     height: 21px;
-    margin: 0 0 6px;
+    margin: 0 0 6px; */
     font-family: RedHatDisplay;
     font-size: 16px;
     font-weight: 900;
@@ -102,7 +119,7 @@ h1{
 .payment{
     width: 354px;
     height: 50px;
-    margin: 32px 48px;
+    margin: -20px 0 32px 48px;
     padding: 15px 102px;
     border-radius: 11px;
     box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);

@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <img class="main-poto" src="images/illustration-hero.svg" alt="">
         <h1>Order Summary</h1>
-        <p class="main-p" >You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        <p class="main-p" >You can now listen to millions of songs, <br> audiobooks, and podcasts on any device<br> anywhere  you like!</p>
         <div class="music-div">
             <img class="music-poto" src="images/icon-music.svg" alt="">
-            <span class="anual">Annual Plan</span>
-            <span class="cost">$59.99/year</span>
-            <span class="change" >Change</span>
+            <div class="flex-change" >
+                <div class="anual-cost">
+                    <span class="anual">Annual Plan</span>
+                    <span class="cost">$59.99/year</span>
+                </div>
+               
+                <span class="change" >Change</span>
+            </div>
+           
         </div>
         <button class="payment" >Proceed to Payment</button>
         <p class="cancel" >Cancel Order</p>
