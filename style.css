@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e0e8ff;
+}
+.container{
+    width: 450px;
+    height: 697px;
+   margin: auto;
+    padding: 0 0 48px;
+    border-radius: 20px;
+    box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15);
+    background-color: #fff;
+
+}
+.main-poto{
+width: 450px;
+  height: 220px;
+  margin: 0 0 45px;
+ border-radius: 30px;
+
+}
+h1{
+    font-family: RedHatDisplay;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2e55; 
+
+}
+.main-p{
+    width: 354px;
+    height: 78px;
+    margin: 17px 48px 20px;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    text-align: center;
+    color: #717fa6;
+  
+}
+.music-div{
+    width: 354px;
+    height: 98px;
+    flex-grow: 0;
+    margin: 20px 48px 32px;
+    padding: 25px 24px;
+    border-radius: 11px;
+    background-color: #f7f9ff;
+}
+.music-poto{
+    width: 48px;
+    height: 48px;
+    margin: 0 20px 0 0;
+    background-color: #dfe6fb;
+    border-radius: 50px;
+  
+}
+.anual{
+    width: 92px;
+    height: 21px;
+    margin: 0 0 6px;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2e55;
+}
+.cost{
+    width: 92px;
+    height: 21px;
+    margin: 6px 0 0;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #717fa6;
+}
+.change{
+    width: 52px;
+    height: 19px;
+    margin: 15px 0 14px 94px;
+    font-family: RedHatDisplay;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #382ae1;
+    text-decoration: underline;
+}
+.payment{
+    width: 354px;
+    height: 50px;
+    margin: 32px 48px;
+    padding: 15px 102px;
+    border-radius: 11px;
+    box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+    background-color: #382ae1;
+    color: white;
+    cursor: pointer;
+}
+.cancel{
+    width: 96px;
+  height: 20px;
+  margin: 0px 178px 0 176px;
+  font-family: RedHatDisplay;
+  font-size: 15px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #717fa6;
+  cursor: pointer;
+}
